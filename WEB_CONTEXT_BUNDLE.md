@@ -75,7 +75,21 @@ This file is generated from repository truth and bounded for the web channel. It
     }
   ],
   "attempts": [],
-  "failed_routes": [],
+  "failed_routes": [
+    {
+      "blocker": "纯数值采样不产生可证伪的严格命题；S(T) 始终 |S|<0.6 无构造性反证；反 RH 无临界线外零点",
+      "conclusion": "exhausted",
+      "evidence": [
+        "governance/tasks/0010-millennium-rh/PHASE2_RESEARCH_RUN.md",
+        "governance/tasks/0010-millennium-rh/PHASE2_CHECKPOINT.md"
+      ],
+      "problem_id": "problem:millennium-riemann-hypothesis",
+      "recorded_at": "2026-08-18T23:50:00+08:00",
+      "recorded_by": "orchestrator",
+      "route": "S(T) 精确数值扫描至 T=4500 及反 RH 搜索 T≤200000",
+      "route_id": "route:rh-st-numerical-scan-20260818"
+    }
+  ],
   "knowledge_operators": [
     {
       "evidence_ceiling": "discovery_only",
@@ -208,72 +222,95 @@ This file is generated from repository truth and bounded for the web channel. It
     "acceptance": {
       "policy": "solution-admission-v1"
     },
-    "aliases": [],
+    "aliases": [
+      "Riemann Hypothesis",
+      "RH"
+    ],
     "allowed_axioms": [
-      "none"
+      "classical-mathematics",
+      "standard-complex-analysis",
+      "standard-analytic-number-theory"
     ],
     "assumptions": [
-      "This record must never be treated as an active research problem."
+      "Only hypotheses explicitly present in the frozen official statement and the selected accepted branch are admitted.",
+      "Finite computation, restricted models, conditional lemmas and special cases do not close the universal root statement.",
+      "Statement-faithfulness and current-status review must close before Result admission."
     ],
     "constraints": {
       "allowed_adapters": [
-        "template-validation-v1"
+        "source-fidelity-review-v1",
+        "lean-obligation-v1"
       ],
       "allowed_methods": [
-        "discovery"
+        "discovery",
+        "derivation",
+        "computation",
+        "proof",
+        "formalization"
       ],
-      "max_attempts": 1,
+      "max_attempts": 20,
       "runtime": {
-        "max_output_bytes": 65536,
-        "max_retries": 1,
-        "max_transitions": 10,
-        "timeout_seconds": 60
+        "max_output_bytes": 5242880,
+        "max_retries": 3,
+        "max_transitions": 300,
+        "timeout_seconds": 1800
       }
     },
-    "created_at": "2026-09-06T00:00:00Z",
+    "created_at": "2026-08-16T18:20:00+08:00",
     "definitions": [
       {
-        "definition": "A non-admitted draft record used only to validate the physical public repository template.",
-        "term": "template placeholder"
+        "definition": "A zero ρ of ζ(s) in the critical strip 0 < Re(ρ) < 1.",
+        "term": "non-trivial zero"
+      },
+      {
+        "definition": "The line Re(s)=1/2 in the complex plane.",
+        "term": "critical line"
       }
     ],
     "domain": {
-      "description": "Template-only placeholder domain; not a mathematical research question.",
+      "description": "黎曼 ζ 函数的临界带非平凡零点。",
       "objects": [
-        "template-placeholder"
+        "Riemann zeta function ζ(s) after meromorphic continuation",
+        "non-trivial zeros ρ with 0 < Re(ρ) < 1"
       ]
     },
-    "lifecycle": "draft",
+    "lifecycle": "active",
     "msc": [
-      "00A00"
+      "11M26"
     ],
-    "problem_id": "problem:template-placeholder",
+    "problem_id": "problem:millennium-riemann-hypothesis",
     "quantifiers": [
       {
-        "domain": "a reviewed public canonical ProblemContract supplied by the repository builder",
-        "kind": "find",
+        "domain": "non-trivial zeros of ζ(s)",
+        "kind": "forall",
         "variables": [
-          "replacement_problem"
+          "ρ"
         ]
       }
     ],
     "schema_version": "1.0.0",
     "sources": [
       {
-        "retrieved_at": "2026-09-06T00:00:00Z",
-        "source": "Vibe Mathing public Web Harness",
-        "source_record_id": "public-template-placeholder-v1",
-        "url": "https://github.com/vibemathing/vibe-mathing-problem-public-template"
+        "retrieved_at": "2026-08-16T18:20:00+08:00",
+        "source": "Clay Mathematics Institute",
+        "source_record_id": null,
+        "url": "https://www.claymath.org/millennium/Riemann-Hypothesis/"
+      },
+      {
+        "retrieved_at": "2026-08-16T18:20:00+08:00",
+        "source": "Clay Mathematics Institute official problem description",
+        "source_record_id": null,
+        "url": "https://www.claymath.org/wp-content/uploads/2022/05/riemann.pdf"
       }
     ],
     "statement": {
-      "language": "en",
-      "text": "This is a non-research placeholder. Replace it with exactly one reviewed public ProblemContract before creating a public problem repository.",
+      "language": "zh-CN",
+      "text": "设 ζ(s) 为黎曼 ζ 函数从 Re(s)>1 的 Dirichlet 级数经解析延拓得到的亚纯函数。证明每个非平凡零点 ρ（等价地 0<Re(ρ)<1）均满足 Re(ρ)=1/2；或者给出一个经过严格认证且满足 0<Re(ρ)<1、Re(ρ)≠1/2 的零点以反驳该命题。有限高度浮点检查不能闭合全称命题；候选反例必须有可复核的严格误差界与陈述忠实性证据。",
       "version": 1
     },
-    "title": "Vibe Mathing public problem repository template placeholder",
-    "updated_at": "2026-09-06T00:00:00Z"
+    "title": "黎曼猜想",
+    "updated_at": "2026-09-07T08:10:00Z"
   },
-  "problem_contract_sha256": "e64cd03254e03dd661eade23243c3c21793fc2d8bffa2d33c172cf8ed2e7f940"
+  "problem_contract_sha256": "7cac6709e27ac95484f50c4dc11f19611230eab525665df7feccc260455d0ba9"
 }
 ```
