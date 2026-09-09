@@ -1,0 +1,71 @@
+{
+ "schema_version": "1.1.0",
+ "channel": "chatgpt-web-github-issue-pr-writer",
+ "repository": "vibemathing/problem-millennium-riemann-hypothesis",
+ "repository_identity": {
+  "binding_state": "verified",
+  "database_id": 1359975137,
+  "node_id": "R_kgDOUQ-S4Q",
+  "default_branch": "main"
+ },
+ "problem_id": "problem:millennium-riemann-hypothesis",
+ "problem_contract_sha256": "7cac6709e27ac95484f50c4dc11f19611230eab525665df7feccc260455d0ba9",
+ "harness_snapshot_sha256": "60ef155168b3ed1bba0c338684bf1db223b4a980be29256f3927d89d7f16a998",
+ "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+ "base_revision": "2e3491f90d59f0dcb02357c6fa0817daf3ac53f0",
+ "attempt_id": "attempt:chatgpt-conjecture-catalog-millennium-riemann-hypothesis-01",
+ "route_id": "route:chatgpt-conjecture-freeze-millennium-riemann-hypothesis-v1",
+ "graph_id": "graph:chatgpt-conjecture-freeze-millennium-riemann-hypothesis-v1",
+ "obligation_id": "obligation:freeze-eight-category-candidates-millennium-riemann-hypothesis-v1",
+ "generator": {
+  "principal": "vibemathing",
+  "model_label": "chatgpt-web-export-harness",
+  "model_fingerprint_status": "unverified"
+ },
+ "transport": {
+  "branch": "web/attempt-chatgpt-conjecture-millennium-riemann-hypothesis-01",
+  "issue_number": 1,
+  "issue_url": "https://github.com/vibemathing/problem-millennium-riemann-hypothesis/issues/1",
+  "pull_request_number": null,
+  "pull_request_url": null
+ },
+ "objective": "Transport the eight-category candidate-only conjecture map derived from the user-provided ChatGPT export into this problem repository for later faithful review; no mathematical closure is claimed.",
+ "candidate_artifacts": [
+  {
+   "candidate_id": "candidate:chatgpt-conjecture-catalog-millennium-riemann-hypothesis-01",
+   "kind": "computation",
+   "locator": "research/artifacts/candidates/chatgpt-conjectures-v1.md",
+   "sha256": "3e83a000098340d75a04625e50faa62832d12d3e3bc95ba5c5cd25d684b6df50"
+  }
+ ],
+ "atomic_claims": [
+  {
+   "claim_id": "claim:chatgpt-conjecture-catalog-millennium-riemann-hypothesis-01",
+   "text": "The ChatGPT export contains an eight-category candidate conjecture map for RH (existence/universal/rigidity/equivalence/classification/extremal/asymptotic/decidability); all entries remain candidate-only and mathematically open.",
+   "status": "candidate"
+  }
+ ],
+ "assumptions": [],
+ "risks": [
+  "statement fidelity pending",
+  "prior-art coverage pending"
+ ],
+ "open_obligations": [
+  "obligation:freeze-eight-category-candidates-millennium-riemann-hypothesis-v1"
+ ],
+ "failed_route_proposal": null,
+ "source_refs": [
+  {
+   "repository": "user-downloads",
+   "path": "ChatGPT-提出黎曼猜想-20260909-1842.md",
+   "revision": "6abe3426bfb7995c3ffaf0a16b4d95ce755f1227c55da1142e296b4c1e692fa9",
+   "relation": "prior_art"
+  }
+ ],
+ "requested_verification": [
+  "human_review",
+  "statement_faithfulness"
+ ],
+ "verdict": "candidate_only",
+ "created_at": "2026-09-09T15:36:02Z"
+}
