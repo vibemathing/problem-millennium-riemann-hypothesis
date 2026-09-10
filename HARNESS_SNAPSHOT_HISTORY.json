@@ -13,6 +13,13 @@
       "tree_sha256": "2f5f28ed216384712faf08142420566fd4503a56e381b41727abc7dd9d2ad084",
       "source_manifest_sha256": "fedd664f1ac16c5232eb05076b73f2bab566ed672840e7f2af851c77253813b3",
       "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1"
+    },
+    {
+      "harness_snapshot_sha256": "4a0ce5bb16bbc856a7f239ca046680c82a4e2e262729f804d1b42f03947bab1e",
+      "harness_version": "1.2.6",
+      "tree_sha256": "4551410c3add01e9f488d6096c3cf23fe75c43996902ed49a25026b5e58f9e71",
+      "source_manifest_sha256": "fedd664f1ac16c5232eb05076b73f2bab566ed672840e7f2af851c77253813b3",
+      "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1"
     }
   ],
   "repository": "vibemathing/problem-millennium-riemann-hypothesis",
