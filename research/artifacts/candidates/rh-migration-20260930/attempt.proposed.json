@@ -1,0 +1,23 @@
+{
+  "attempt_id": "attempt:rh-migration-20260930",
+  "problem_id": "problem:millennium-riemann-hypothesis",
+  "route_id": "route:rh-migration-20260930",
+  "obligation_graph_id": "graph:rh-migration-20260930",
+  "problem_contract_sha256": "7cac6709e27ac95484f50c4dc11f19611230eab525665df7feccc260455d0ba9",
+  "generator": "dot candidate generator; unverified model identity",
+  "objective": "For the synthetic quartet {3/5±14i,2/5±14i}, the exact Li-type sums are positive for n=1,...,87 and negative at n=88. This is not a statement about actual zeta zeros.",
+  "method": "computation",
+  "lifecycle": "blocked",
+  "started_at": "2026-09-30T00:13:00Z",
+  "completed_at": null,
+  "inputs": [
+    "https://www.claymath.org/wp-content/uploads/2022/05/riemann.pdf"
+  ],
+  "claims": [
+    "For the synthetic quartet {3/5±14i,2/5±14i}, the exact Li-type sums are positive for n=1,...,87 and negative at n=88. This is not a statement about actual zeta zeros."
+  ],
+  "artifacts": [
+    "research/artifacts/candidates/rh-migration-20260930/RESEARCH.zh.md",
+    "research/artifacts/candidates/rh-migration-20260930/execute.py"
+  ]
+}

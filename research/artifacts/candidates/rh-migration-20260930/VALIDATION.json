@@ -1,0 +1,19 @@
+{
+  "schema_validation": {
+    "problem-contract.proposed.json": [],
+    "attempt.proposed.json": [],
+    "graph.proposed.json": []
+  },
+  "dag": "acyclic; leaf deliberately separate from sufficient root bridge",
+  "local_checks": {
+    "exact_regression": "passed",
+    "reasoning_discipline": "passed",
+    "frozen_harness": "passed",
+    "pending_packet": "passed as pending, not admitted",
+    "knowledge_registry": "passed",
+    "canonical_obligation_ledger": "passed, zero graphs",
+    "make_check": "blocked: missing pre-admitted Attempt and graph",
+    "make_check_full": "blocked at check prerequisite; unit suite not reached"
+  },
+  "status": "candidate_only"
+}

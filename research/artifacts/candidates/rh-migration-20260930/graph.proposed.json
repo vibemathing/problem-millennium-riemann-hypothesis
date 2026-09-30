@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0.0",
+  "graph_id": "graph:rh-migration-20260930",
+  "problem_id": "problem:millennium-riemann-hypothesis",
+  "attempt_id": "attempt:rh-migration-20260930",
+  "route_id": "route:rh-migration-20260930",
+  "problem_contract_sha256": "7cac6709e27ac95484f50c4dc11f19611230eab525665df7feccc260455d0ba9",
+  "root_obligation_id": "obligation:rh-migration-20260930-root",
+  "obligations": [
+    {
+      "obligation_id": "obligation:rh-migration-20260930-root",
+      "kind": "root_claim",
+      "statement": {
+        "text": "设 ζ(s) 为黎曼 ζ 函数从 Re(s)>1 的 Dirichlet 级数经解析延拓得到的亚纯函数。证明每个非平凡零点 ρ（等价地 0<Re(ρ)<1）均满足 Re(ρ)=1/2；或者给出一个经过严格认证且满足 0<Re(ρ)<1、Re(ρ)≠1/2 的零点以反驳该命题。有限高度浮点检查不能闭合全称命题；候选反例必须有可复核的严格误差界与陈述忠实性证据。",
+        "language": "zh-CN",
+        "formal_declaration": null
+      },
+      "statement_sha256": "b3a81737d03729abf13834cc65c04d9bd0bebb601a36b3c5a2a635fdf62e19a9",
+      "dependencies": [
+        "obligation:rh-migration-20260930-bridge"
+      ],
+      "acceptance": {
+        "required_capabilities": [
+          "statement_faithfulness",
+          "human_review"
+        ],
+        "allowed_candidate_kinds": [
+          "proof",
+          "computation"
+        ]
+      },
+      "source_refs": [
+        "https://www.claymath.org/wp-content/uploads/2022/05/riemann.pdf"
+      ]
+    },
+    {
+      "obligation_id": "obligation:rh-migration-20260930-bridge",
+      "kind": "lemma",
+      "statement": {
+        "text": "Establish Li criterion with faithful actual zeta coefficients and unconditional nonnegative bounds for all n≥1; synthetic finite-prefix tests are diagnostic only.",
+        "language": "en",
+        "formal_declaration": null
+      },
+      "statement_sha256": "f6cfae642c85614fba12b588fad6718fee656212970c904b14fb4a1641b7db87",
+      "dependencies": [],
+      "acceptance": {
+        "required_capabilities": [
+          "statement_faithfulness",
+          "human_review"
+        ],
+        "allowed_candidate_kinds": [
+          "proof",
+          "computation"
+        ]
+      },
+      "source_refs": [
+        "https://www.claymath.org/wp-content/uploads/2022/05/riemann.pdf"
+      ]
+    },
+    {
+      "obligation_id": "obligation:rh-migration-20260930-leaf",
+      "kind": "computation",
+      "statement": {
+        "text": "For the synthetic quartet {3/5±14i,2/5±14i}, the exact Li-type sums are positive for n=1,...,87 and negative at n=88. This is not a statement about actual zeta zeros.",
+        "language": "en",
+        "formal_declaration": null
+      },
+      "statement_sha256": "3c32173990bc177b0bf6d64d8e664ceaf51f98870a5dd5baa1f3681462d7a5af",
+      "dependencies": [],
+      "acceptance": {
+        "required_capabilities": [
+          "statement_faithfulness",
+          "human_review"
+        ],
+        "allowed_candidate_kinds": [
+          "proof",
+          "computation"
+        ]
+      },
+      "source_refs": [
+        "https://www.claymath.org/wp-content/uploads/2022/05/riemann.pdf"
+      ]
+    }
+  ],
+  "created_at": "2026-09-30T00:13:00Z",
+  "supersedes": null
+}
