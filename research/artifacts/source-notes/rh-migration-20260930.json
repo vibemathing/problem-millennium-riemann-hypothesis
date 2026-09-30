@@ -1,0 +1,22 @@
+{
+  "status": "proposal_only",
+  "source": {
+    "source": "E. Bombieri, Clay Mathematics Institute official problem description",
+    "source_record_id": null,
+    "url": "https://www.claymath.org/wp-content/uploads/2022/05/riemann.pdf",
+    "retrieved_at": "2026-09-30T00:13:00Z",
+    "revision": "retrieved-2026-09-30; SHA-256 identifies downloaded PDF bytes",
+    "content_sha256": "1454b2909f99271726ffb68b056aef45b7d3e6893a66282cad596339d69bafa9",
+    "quote": "The nontrivial zeros of ζ(s) have real part equal to 1/2.",
+    "license": {
+      "name": "Copyright; no redistribution license identified; short quotation and citation only",
+      "attribution": "E. Bombieri, official Clay problem description, page 1",
+      "url": null
+    }
+  },
+  "bytes": 159267,
+  "hash_scope": "Actual downloaded PDF bytes, not extracted text, URL, or Git blob",
+  "source_handling": "No full paper redistributed. Original landing-page source remains in unchanged canonical record; proposed consolidated source retains only inspected official PDF. Any source-list migration requires owner review.",
+  "license_review": "No open redistribution permission asserted. Upstream rights review remains required.",
+  "statement_comparison": "Original statement, statement.version, quantifiers, assumptions and acceptance unchanged. Synthetic quartet is not a zeta-zero counterexample."
+}

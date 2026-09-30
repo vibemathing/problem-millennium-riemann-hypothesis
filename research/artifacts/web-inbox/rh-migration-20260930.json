@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.1.0",
+  "channel": "chatgpt-web-github-issue-pr-writer",
+  "repository": "vibemathing/problem-millennium-riemann-hypothesis",
+  "repository_identity": {
+    "binding_state": "verified",
+    "database_id": 1359975137,
+    "node_id": "R_kgDOUQ-S4Q",
+    "default_branch": "main"
+  },
+  "problem_id": "problem:millennium-riemann-hypothesis",
+  "problem_contract_sha256": "7cac6709e27ac95484f50c4dc11f19611230eab525665df7feccc260455d0ba9",
+  "harness_snapshot_sha256": "4a0ce5bb16bbc856a7f239ca046680c82a4e2e262729f804d1b42f03947bab1e",
+  "base_revision": "22e12db0044bb0f54ffee367418f7a0ac828d233",
+  "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+  "attempt_id": "attempt:rh-migration-20260930",
+  "route_id": "route:rh-migration-20260930",
+  "graph_id": "graph:rh-migration-20260930",
+  "obligation_id": "obligation:rh-migration-20260930-leaf",
+  "generator": {
+    "principal": "vibemathing",
+    "model_label": "dot",
+    "model_fingerprint_status": "unverified"
+  },
+  "transport": {
+    "branch": "web/attempt-rh-migration-20260930",
+    "issue_number": 5,
+    "issue_url": "https://github.com/vibemathing/problem-millennium-riemann-hypothesis/issues/5",
+    "pull_request_number": null,
+    "pull_request_url": null
+  },
+  "objective": "Submit prior exploratory draft and schema migration proposals for trusted review; not a canonical research launch.",
+  "candidate_artifacts": [
+    {
+      "candidate_id": "candidate:rh-migration-20260930-draft",
+      "kind": "computation",
+      "locator": "research/artifacts/candidates/rh-migration-20260930/RESEARCH.zh.md",
+      "sha256": "dcb0cadd0dd805dddb7b521a06f639b57c916a07d119b6a2e6e34c413616f548"
+    }
+  ],
+  "atomic_claims": [
+    {
+      "claim_id": "claim:rh-migration-20260930-leaf",
+      "text": "For the synthetic quartet {3/5±14i,2/5±14i}, the exact Li-type sums are positive for n=1,...,87 and negative at n=88. This is not a statement about actual zeta zeros.",
+      "status": "candidate"
+    }
+  ],
+  "assumptions": [
+    "Only hypotheses explicitly present in the frozen official statement and the selected accepted branch are admitted.",
+    "Finite computation, restricted models, conditional lemmas and special cases do not close the universal root statement.",
+    "Statement-faithfulness and current-status review must close before Result admission."
+  ],
+  "risks": [
+    "No pre-admitted Attempt/Graph exists. Pending proposal only.",
+    "No complete root proof, kernel replay or trusted verifier receipt."
+  ],
+  "open_obligations": [
+    "obligation:rh-migration-20260930-root",
+    "obligation:rh-migration-20260930-bridge",
+    "obligation:rh-migration-20260930-leaf"
+  ],
+  "failed_route_proposal": null,
+  "source_refs": [
+    {
+      "repository": "vibemathing/problem-millennium-riemann-hypothesis",
+      "path": "problem-library/records/canonical-problems.jsonl",
+      "revision": "22e12db0044bb0f54ffee367418f7a0ac828d233",
+      "relation": "exact"
+    }
+  ],
+  "requested_verification": [
+    "statement_faithfulness",
+    "human_review"
+  ],
+  "verdict": "candidate_only",
+  "created_at": "2026-09-30T00:13:00Z",
+  "admission_request": {
+    "request_id": "rh-migration-20260930",
+    "graph_id": "graph:rh-migration-20260930",
+    "obligation_id": "obligation:rh-migration-20260930-leaf",
+    "route_id": "route:rh-migration-20260930",
+    "attempt_id": "attempt:rh-migration-20260930",
+    "problem_contract_sha256": "7cac6709e27ac95484f50c4dc11f19611230eab525665df7feccc260455d0ba9"
+  }
+}
